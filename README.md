@@ -12,13 +12,14 @@ A full-stack recipe browsing and viewing application built with React on the cli
 ✅ **Pagination** for better user experience  
 ✅ Responsive design for **desktop and mobile**  
 ✅ Toast notifications for error handling  
-✅ API caching for optimized performance  
+✅ API caching for optimized performance
 
 ---
 
 ## 🚀 Tech Stack
 
 ### 🖥️ Frontend:
+
 - React
 - TypeScript
 - React Router
@@ -26,12 +27,14 @@ A full-stack recipe browsing and viewing application built with React on the cli
 - Axios (HTTP Requests)
 
 ### 🔧 Backend:
+
 - Node.js
 - Express.js
 - Axios (for external API requests)
 - Cache implementation for API responses
 
 ### 🔗 External API:
+
 - [TheMealDB](https://www.themealdb.com/) (Used to fetch recipes)
 
 ---
@@ -51,26 +54,31 @@ Before you begin, ensure you have the following installed:
 
 ```sh
 https://github.com/Lihitsky/developstoday-junior-js-test-assessment.git
-cd recipe-book
 ```
 
 2️⃣ Install Dependencies
 
 Client (React App)
+
 ```sh
 cd client
 npm install
 ```
 
 Server (Node.js API)
+
 ```sh
 cd ../server
 npm install
+npx tsc
 ```
+
 ---
 
 ## 🚀 Running the Application
+
 ### 📡 Start the Server
+
 Navigate to the server directory:
 
 ```sh
@@ -92,8 +100,8 @@ npm start
 The server will be running on:
 🔗 http://localhost:3001
 
-
 ### 🌐 Start the Client
+
 Navigate to the client directory:
 
 ```sh
@@ -119,4 +127,3 @@ The client will be running on:
 - 4️⃣ Navigate back to the recipe list or try different filters
 
 ---
-
